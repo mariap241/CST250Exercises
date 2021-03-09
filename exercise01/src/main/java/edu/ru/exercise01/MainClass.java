@@ -7,7 +7,7 @@ public class MainClass {
     
     public static void main(String[] args){
         String myPlainText = "attack";
-        String myEncryptedText = encrypt(myPlainText, 5);
+        String myEncryptedText = encrypt(myPlainText, 50);
         
         System.out.println("Plain Text: " + myPlainText);
         System.out.println("Encrypted Text: " + myEncryptedText);
